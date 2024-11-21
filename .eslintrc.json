@@ -1,0 +1,19 @@
+{
+  "plugins": ["import", "jest"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "no-unused-expressions": "error",
+    "no-duplicate-imports": "error",
+    "import/no-unused-modules": "error",
+    "no-unused-vars": "error"
+  }
+}
